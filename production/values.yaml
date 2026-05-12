@@ -1,0 +1,8 @@
+nginx-deployment:
+  image:
+    repository: acraksdemo.azurecr.io//simpleapplication3
+    pullPolicy: IfNotPresent
+    tag: "main"
+
+  service:
+    port: 3000
