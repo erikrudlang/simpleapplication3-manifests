@@ -6,3 +6,6 @@ dependencies:
   - name: nginx-deployment
     version: 0.2.0
     repository: oci://acraksdemo.azurecr.io/helm
+  - name: otel-dotnet-sidecar
+    version: 0.2.0
+    repository: oci://acraksdemo.azurecr.io/helm
